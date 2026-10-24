@@ -5,7 +5,7 @@
 -- ══════════════════════════════════════════════════════════════
 
 -- Asegúrate de tener ambos archivos en la misma carpeta de tu ejecutor
-local AlanUI = loadstring(readfile("AlanUI.lua"))()
+local AlanUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/alanbeikers9/AlanUI-Library-Roblox/refs/heads/main/AlanUI.lua"))()
 
 -- ── Tema custom de demo (aparece en el selector de temas) ──────
 AlanUI.ThemeManager:AgregarTema("DemoNeon", {
